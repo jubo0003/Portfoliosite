@@ -1,0 +1,30 @@
+@media (width<800px) {
+  .flexnav {
+    display: none;
+  }
+  .burgernav {
+    display: block;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (width<800px) {
+  .burgernav {
+    display: none;
+
+    .flexnav {
+      display: block;
+    }
+  }
+}
