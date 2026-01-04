@@ -34,3 +34,9 @@
 .section-nysgerrig {
   padding: 2em;
 }
+
+.nobutton {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
