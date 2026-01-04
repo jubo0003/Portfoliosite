@@ -152,11 +152,22 @@ h2 {
 
 p {
   max-width: 65ch;
+  line-height: 1.6;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 400;
+}
+
+@media (width>800px) {
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 /* cta styling */

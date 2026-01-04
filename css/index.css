@@ -17,3 +17,10 @@
   gap: 2em;
   padding: 3em;
 }
+
+.flex-text-cta2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
