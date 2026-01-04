@@ -101,6 +101,7 @@
 
   .flex-text-cta1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 4em;
   }
@@ -128,5 +129,105 @@
     display: flex;
     flex-direction: row;
     gap: 4em;
+  }
+
+  /* portfoliosite layout */
+  .mywork-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .work {
+    padding: 0 0 5em 0;
+    h1 {
+      font-size: 3rem;
+      font-weight: 500;
+    }
+  }
+
+  .mywork-illustration {
+    width: 300px;
+    margin-top: 7em;
+  }
+
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5em;
+  }
+
+  .card1 {
+    display: flex;
+    margin-top: 0;
+  }
+
+  .card2 {
+    margin-top: 5em;
+  }
+
+  .card3 {
+    margin-top: 10em;
+  }
+
+  .tema-cards {
+    display: flex;
+    justify-content: start;
+  }
+
+  .section-nysgerrig {
+    display: flex;
+    flex-direction: row;
+    padding: 3em 3em;
+    gap: 5em;
+  }
+
+  .nysgerrig-img {
+    width: 50%;
+  }
+
+  .nysgerrig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flex-text-cta3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    justify-content: center;
+  }
+
+  .pop-flex1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .pop-overskrift-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    & ul {
+      list-style: none;
+    }
+  }
+}
+
+[popover]:popover-open {
+  padding: 4rem;
+  display: grid;
+  gap: 1.5rem;
+  max-width: 1200px;
+  max-height: 650px;
+  margin: 50px auto;
+  overflow-y: auto;
+  border: none;
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.391);
+    backdrop-filter: blur(8px);
   }
 }
