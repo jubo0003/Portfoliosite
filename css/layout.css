@@ -6,6 +6,18 @@
     display: block;
   }
 
+  .heroimage {
+    position: relative;
+  }
+
+  .hero-julie {
+    position: absolute;
+    top: 2.5rem;
+    left: -7.5%;
+    max-width: unset;
+    width: 115%;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -19,6 +31,16 @@
   }
 }
 
+@media (width<950px) {
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
 @media (width>800px) {
   .burgernav {
     display: none;
@@ -26,6 +48,34 @@
     .flexnav {
       display: block;
     }
+  }
+
+  .gridhero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .heroimage {
+    grid-column-start: 2;
+    grid-row: 1 / span 2;
+    position: relative;
+
+    img {
+      max-height: 100vh;
+    }
+  }
+
+  .hero-julie {
+    position: absolute;
+    top: 2rem;
+    left: -30%;
+  }
+
+  .herotext {
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: center;
   }
 
   .cta-green {

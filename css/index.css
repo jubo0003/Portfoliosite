@@ -5,6 +5,12 @@
   gap: 2em;
 }
 
+.herotext {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
 .h3-p-index {
   display: flex;
   flex-direction: column;
