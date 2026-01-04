@@ -116,6 +116,13 @@ h2 {
 
 .logo {
   width: 40px;
+  align-self: center;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .flexheader {
@@ -124,7 +131,6 @@ h2 {
   justify-content: space-between;
   padding: 1em 2.5em;
   background-color: var(--color-bg-primary);
-  position: sticky;
 }
 
 .flexnav {
@@ -132,6 +138,7 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 3em;
+  padding-top: 0.3em;
 
   a {
     color: var(--color-text-primary);
@@ -212,3 +219,5 @@ footer {
   justify-content: space-between;
   padding: 0 1em;
 }
+
+/* styling used on multiple pages */
