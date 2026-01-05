@@ -1,7 +1,7 @@
 .pop-overskrift-details {
   display: flex;
   flex-direction: column;
-  gap: 3em;
+  gap: 2em;
 
   & h1 {
     font-weight: 500;
@@ -30,12 +30,12 @@
 .btn-flex {
   display: flex;
   gap: 1.2em;
-  margin: 2em 0 2em 0;
+  margin: 1em 0 2em 0;
 }
 
 [popover]:popover-open {
   background-color: var(--color-bg-primary);
-  padding: 5rem;
+  padding: 2rem;
   display: grid;
   gap: 1.5rem;
   max-width: 600px;
@@ -84,7 +84,20 @@
 
   .pop-image {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+  }
+
+  .work {
+    h1 {
+      margin-top: 2em;
+    }
+  }
+
+  .portfolio-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
   }
 }
 
@@ -260,6 +273,7 @@
 @media (width>950px) {
   [popover]:popover-open {
     max-width: 1200px;
+    padding: 4rem;
   }
 
   .pop-flex1 {
