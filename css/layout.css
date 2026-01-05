@@ -331,16 +331,16 @@
     }
   }
 
-  .flex-jobs {
-    display: flex;
-    flex-direction: row;
-    gap: 10em;
-  }
+  /* scroll til siden slutter  */
 
   .flex-erfaring {
     p {
       max-width: 40ch;
     }
+  }
+
+  .portrait {
+    max-height: 85vh;
   }
 }
 
@@ -365,5 +365,11 @@
   .beskrivelse {
     max-width: 65ch;
     padding: 3em 0;
+  }
+
+  .flex-jobs {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
   }
 }

@@ -65,13 +65,20 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   padding: 1em;
-  max-width: 620px;
+  max-width: 600px;
 }
 
 .flex-jobs {
   display: flex;
   flex-direction: column;
   padding: 3em;
+}
+.grid-erfaring {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 1em;
+  max-width: 600px;
 }
 
 @media screen and (width>600px) {
@@ -98,8 +105,4 @@
     flex-direction: row;
     justify-self: right;
   }
-}
-
-.portrait {
-  max-height: 80vh;
 }
