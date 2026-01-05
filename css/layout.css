@@ -99,6 +99,13 @@
     flex-direction: column;
     gap: 3em;
   }
+  .edu-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em 0;
+    align-items: center;
+  }
 }
 
 @media (width<950px) {
@@ -270,6 +277,60 @@
   }
 
   /* om side  */
+
+  .cardbox {
+    text-align: center;
+    background-color: var(--color-bg-secondary);
+    min-width: 20em;
+    min-height: 25em;
+    padding: 3em;
+    gap: 2em;
+
+    overflow: hidden;
+  }
+
+  .edu-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding: 0 3em 0 3em;
+  }
+
+  .flex-om {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+    padding: 1em 3em 3em 3em;
+  }
+
+  /* scroll til siden  */
+
+  .horizontal-scroll-wrapper {
+    height: 300vh;
+    view-timeline: --gallery block;
+  }
+
+  .sticky-wrapper {
+    position: sticky;
+    top: 10vh;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .gallery-track {
+    animation: move-horizontal linear both;
+    animation-timeline: --gallery;
+    animation-range: contain 0% contain 100%;
+  }
+
+  @keyframes move-horizontal {
+    to {
+      translate: -51% 0;
+    }
+  }
 }
 
 @media (width>950px) {
