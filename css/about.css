@@ -65,6 +65,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   padding: 1em;
+  max-width: 620px;
 }
 
 .flex-jobs {
@@ -73,30 +74,32 @@
   padding: 3em;
 }
 
-.job1 {
-  display: flex;
-  flex-direction: row;
-  justify-self: right;
-}
+@media screen and (width>600px) {
+  .job1 {
+    display: flex;
+    flex-direction: row;
+    justify-self: left;
+  }
 
-.job2 {
-  display: flex;
-  flex-direction: row;
-  justify-self: left;
-}
+  .job2 {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+  }
 
-.job3 {
-  display: flex;
-  flex-direction: row;
-  justify-self: right;
-}
+  .job3 {
+    display: flex;
+    flex-direction: row;
+    justify-self: left;
+  }
 
-.job4 {
-  display: flex;
-  flex-direction: row;
-  justify-self: left;
+  .job4 {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+  }
 }
 
 .portrait {
-  max-width: 70vh;
+  max-height: 80vh;
 }

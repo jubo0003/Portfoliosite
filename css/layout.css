@@ -103,8 +103,7 @@
     display: flex;
     flex-direction: column;
     gap: 3em;
-    padding: 3em 0;
-    align-items: center;
+    padding: 3em 5em 3em 3em;
   }
 }
 
@@ -329,6 +328,18 @@
   @keyframes move-horizontal {
     to {
       translate: -51% 0;
+    }
+  }
+
+  .flex-jobs {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+  }
+
+  .flex-erfaring {
+    p {
+      max-width: 40ch;
     }
   }
 }
