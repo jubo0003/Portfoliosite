@@ -52,7 +52,7 @@
 
 .burger {
   width: 40px;
-  height: 40px;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -213,7 +213,7 @@
 
   .hero-julie {
     position: absolute;
-    top: 2rem;
+    top: 2.5rem;
     left: -30%;
   }
 
