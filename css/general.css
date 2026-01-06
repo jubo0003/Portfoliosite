@@ -195,7 +195,7 @@ h3 {
   border: 1.7px solid black;
   font-size: 1.1em;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 250ms;
 }
 
 .cta-beige {
@@ -205,15 +205,15 @@ h3 {
   border: 1.7px solid black;
   font-size: 1.1em;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 250ms;
 }
 
 .cta-beige:hover {
-  transform: scale(1.12);
+  transform: scale(1.05);
 }
 
 .cta-green:hover {
-  transform: scale(1.12);
+  transform: scale(1.05);
 }
 
 /* footer styling */
@@ -252,7 +252,7 @@ footer {
   display: inline-block;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   &:visited {
