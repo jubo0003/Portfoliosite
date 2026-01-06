@@ -81,6 +81,9 @@ h6 {
   --color-bg-secondary: #d6dbc9;
   --color-bg-footer: black;
 
+  --color-beige-hover: #d6d9f4;
+  --color-green-hover: #eeefea;
+
   --color-text-primary: #000000;
   --color-text-secondary: #bb4926;
   --color-text-tertiary: #f0efec;
@@ -185,6 +188,7 @@ h3 {
   border-radius: 0;
   border: 1.7px solid black;
   font-size: 1.1em;
+  cursor: pointer;
 }
 
 .cta-beige {
@@ -193,6 +197,15 @@ h3 {
   border-radius: 0;
   border: 1.7px solid black;
   font-size: 1.1em;
+  cursor: pointer;
+}
+
+.cta-beige:hover {
+  background-color: var(--color-beige-hover);
+}
+
+.cta-green:hover {
+  background-color: var(--color-green-hover);
 }
 
 /* footer styling */
