@@ -68,10 +68,22 @@
 .beskrivelse {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2.5em;
 
   & p {
     font-size: 1em;
+    margin-top: 0.8em;
+  }
+}
+
+.udfordringer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  padding: 2em 0 2em 0;
+  & p {
+    font-size: 1em;
+    margin-top: 0.2em;
   }
 }
 

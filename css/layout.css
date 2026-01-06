@@ -39,7 +39,7 @@
   display: grid;
   gap: 1.5rem;
   max-width: 600px;
-  max-height: 650px;
+  max-height: 85vh;
   margin: 50px auto;
   overflow-y: auto;
   border: none;
@@ -47,6 +47,10 @@
   &::backdrop {
     background-color: rgba(0, 0, 0, 0.391);
     backdrop-filter: blur(8px);
+  }
+
+  p {
+    max-width: 60ch;
   }
 }
 
@@ -196,11 +200,11 @@
   }
 
   .flexnav div a {
-    transition: 0.5s;
+    transition: 250ms linear;
   }
 
   .flexnav div a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   .gridhero {
