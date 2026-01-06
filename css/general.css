@@ -196,6 +196,8 @@ h3 {
   font-size: 1.1em;
   cursor: pointer;
   transition: 250ms;
+  text-decoration: none;
+  color: var(--color-text-primary);
 }
 
 .cta-beige {
@@ -206,6 +208,8 @@ h3 {
   font-size: 1.1em;
   cursor: pointer;
   transition: 250ms;
+  text-decoration: none;
+  color: var(--color-text-primary);
 }
 
 .cta-beige:hover {
