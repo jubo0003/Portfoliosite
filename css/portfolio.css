@@ -23,6 +23,14 @@
   padding: 1em;
 }
 
+.tema-cards img {
+  transition: 0.5s;
+}
+
+.tema-cards img:hover {
+  transform: scale(0.97);
+}
+
 .portfolio-cards {
   padding: 1em 2em 2em 2em;
 }
@@ -65,4 +73,14 @@
   & p {
     font-size: 1em;
   }
+}
+
+.mobile-cta {
+  display: flex;
+  flex-direction: row;
+  align-self: left;
+  border: 1.5px solid black;
+  max-width: 10em;
+  padding: 1em 2em 1em 2.7em;
+  margin: 0.7em 0;
 }
