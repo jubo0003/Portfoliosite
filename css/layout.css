@@ -17,13 +17,15 @@
     max-width: 40ch;
   }
 
-  & button {
+  & .cta-pop {
     padding: 0.8em 2.5em;
     font-size: 1.1em;
     background-color: var(--color-bg-primary);
     border: 1.5px solid var(--color-text-primary);
     border-radius: 0;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--color-text-primary);
   }
 }
 

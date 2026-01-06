@@ -263,3 +263,7 @@ footer {
     color: var(--color-text-primary);
   }
 }
+
+.udd {
+  font-size: 1.6em;
+}
