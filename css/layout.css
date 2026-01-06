@@ -195,6 +195,14 @@
     }
   }
 
+  .flexnav div a {
+    transition: 0.5s;
+  }
+
+  .flexnav div a:hover {
+    transform: scale(1.1);
+  }
+
   .gridhero {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -344,6 +352,9 @@
     justify-content: center;
   }
 
+  .mobile-cta {
+    display: none;
+  }
   /* om side  */
 
   .cardbox {

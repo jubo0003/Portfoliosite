@@ -195,7 +195,7 @@ h3 {
   border: 1.7px solid black;
   font-size: 1.1em;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .cta-beige {
@@ -205,7 +205,7 @@ h3 {
   border: 1.7px solid black;
   font-size: 1.1em;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .cta-beige:hover {
@@ -246,7 +246,7 @@ footer {
 .cta-nav {
   border: 1.5px solid black;
   padding: 0.5em 1.2em;
-  transition: 0.3s;
+  transition: 0.5s;
   color: var(--color-text-primary);
   text-decoration: none;
   display: inline-block;
