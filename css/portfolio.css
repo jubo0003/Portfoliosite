@@ -99,3 +99,9 @@
   padding: 1em 2em 1em 2.7em;
   margin: 0.7em 0;
 }
+
+.flex-h2-pop {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
