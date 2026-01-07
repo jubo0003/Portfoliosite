@@ -460,3 +460,8 @@
     margin-bottom: 6em;
   }
 }
+
+main {
+  max-width: 2000px;
+  margin: 0 auto;
+}
