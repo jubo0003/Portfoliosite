@@ -267,3 +267,7 @@ footer {
 .udd {
   font-size: 1.6em;
 }
+
+p {
+  text-wrap: pretty;
+}
